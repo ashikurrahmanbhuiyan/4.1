@@ -38,8 +38,8 @@ bc = Blockchain()
 bc.add_block(Block("block1",""))
 
 for block in bc.chain:
-  print("Block data:", block.data)
-  print("hash:",block.hash)
+  print("\nBlock data:", block.data)
+  print("\nhash:",block.hash)
   
 
 
